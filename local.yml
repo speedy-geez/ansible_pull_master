@@ -1,4 +1,4 @@
-- hosts: all
+- hosts: Home-OptiPlex
   connection: local
   become: true
 
