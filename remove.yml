@@ -1,0 +1,4 @@
+- name: Ensure apache is uninstalled
+  apt:
+    name: apache2
+    state: absent
