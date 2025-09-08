@@ -8,7 +8,7 @@
         update_cache: yes
       changed_when: False
 
-  tasks:
-    - include: tasks/users.yml
-    - include: tasks/cron.yml
-    - include: tasks/packages.yml
+  include_tasks:
+    - tasks/users.yml
+    - tasks/cron.yml
+    - tasks/packages.yml
